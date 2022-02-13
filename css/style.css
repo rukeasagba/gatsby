@@ -1,0 +1,410 @@
+/* *{
+    margin-left: 8px;
+    margin-right: 4px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+} */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 14px;
+
+}
+
+.header a:hover{
+    color: black;
+    transition: all 500ms linear;
+}
+
+#london{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.header a{
+    margin: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+#navbar{
+    color: black;
+    margin-left: 50px;
+}
+
+#RSS{
+    margin-right: 50px;
+}
+
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: gray;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.container-one{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    position:relative;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+    max-width: 100%;
+
+}
+
+.container-two{
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    position:relative;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-three{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    position:relative;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-four{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    position:relative;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-five{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    position:relative;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-six{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    position:relative;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-seven{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    position:relative;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#black{
+    width: 670px;
+    height: 500px;
+    margin-right: 0px;
+    display: block;
+       
+}
+
+#face{
+   width: 670px;
+    height: 500px; 
+    margin-left: 0px;
+    
+}
+
+
+#orange{
+    width: 1340px;
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+#smoothie{
+   width: 670px;
+   height: 500px;
+   margin-right: 0px;
+}
+
+#plant{
+   width: 670px;
+    height: 500px; 
+    margin-left: 0px; 
+}
+
+#greens{
+   width: 1340px;
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#banana{
+    width: 670px;
+    height: 500px;
+    margin-right: 0;
+}
+#puppy{
+   width: 670px;
+    height: 500px; 
+    margin-left: 0;
+}
+
+#blacktwo{
+   width: 1340px;
+    height: 500px;
+    margin-top: 0px;
+}
+
+#ten{
+    width: 670px;
+    height: 500px;
+    margin-right: 0;
+    color: black;
+}
+#egg{
+   width: 670px;
+    height: 500px; 
+    margin-left: 0;
+}
+
+
+
+.container p{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    
+}
+
+.container-one .dark{
+  position: absolute;
+  top: 50%;
+  left: 26.7%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  visibility: hidden;
+}
+
+/* .container-one:hover .dark{
+    visibility: visible;
+    transition: all 0.8s ease-in-out;
+    
+} */
+
+.container-one:hover .dark{
+    visibility: visible;
+    transition: all 0.8s ease-in-out;
+    
+}
+
+.container-one .pink{
+  position: absolute;
+  top: 50%;
+  right: 15.5%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  visibility: hidden;
+}
+
+.container-one:hover .pink{
+    visibility: visible;
+    transition: all 0.8s ease-in-out;
+    
+}
+
+.container-two .centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  visibility: hidden;
+}
+
+.container-two:hover .centered{
+    visibility: visible;
+    transition: all 0.8s ease-in-out;
+    
+}
+
+.container-six .centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  visibility: hidden;
+}
+
+.container-six:hover .centered{
+    visibility: visible;
+    transition: all 0.8s ease-in-out;
+    
+}
+
+.container-four .centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  visibility: hidden;
+}
+.container-four:hover .centered{
+    visibility: visible;
+    transition: all 0.8s ease-in-out;
+    
+}
+
+.container-three .line{
+  position: absolute;
+  top: 50%;
+  left: 26.7%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  visibility: hidden;
+}
+.container-three:hover .line{
+    visibility: visible;
+    transition: all 0.8s ease-in-out;
+    
+}
+
+.container-three .spike{
+  position: absolute;
+  top: 50%;
+  right: 15.5%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  visibility: hidden;
+}
+
+.container-three:hover .spike{
+    visibility: visible;
+    transition: all 0.8s ease-in-out;
+    
+}
+
+.container-five .fruity{
+  position: absolute;
+  top: 50%;
+  left: 26.7%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  visibility: hidden;
+}
+
+.container-five:hover .fruity{
+    visibility: visible;
+    transition: all 0.8s ease-in-out;
+    
+}
+.container-five .fur{
+  position: absolute;
+  top: 50%;
+  right: 14%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  visibility: hidden;
+}
+
+.container-five:hover .fur{
+    visibility: visible;
+    transition: all 0.8s ease-in-out;
+    
+}
+
+
+.container-seven .ten{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  
+}
+
+.container-seven:hover .ten{
+    text-decoration: underline;
+    
+}
+.container-seven .eggs{
+  position: absolute;
+  top: 50%;
+  right: 16%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.container-seven:hover .eggs{
+    visibility: visible;
+    transition: all 0.8s ease-in-out;
+    
+}
+
+
